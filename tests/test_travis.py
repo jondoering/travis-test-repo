@@ -15,6 +15,7 @@ class test_travis(unittest.TestCase):
 
     def setUp(self):
        self.test_var = "This is a travis test for CI will failed - hopefully" 
+       self.test_var = "This is a travis test for CI" 
 
     def test_init(self):
 
