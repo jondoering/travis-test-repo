@@ -14,7 +14,7 @@ class test_travis(unittest.TestCase):
     """Unit test for the MLDataFrame Class"""
 
     def setUp(self):
-       self.test_var = "This is a travis test for CI - failed2" 
+       self.test_var = "This is a travis test for CI will failed - hopefully" 
 
     def test_init(self):
 
